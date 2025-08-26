@@ -103,7 +103,7 @@ function OnamCelebration() {
           </div>
 
           {/* Enhanced coming soon badge with hover effects */}
-          <div className="mb-6 sm:mb-8 relative flex justify-center" style={{
+          {/* <div className="mb-6 sm:mb-8 relative flex justify-center" style={{
             animation: 'slideUp 1s ease-out 1.2s both'
           }}>
             <div className="inline-block relative group cursor-pointer">
@@ -111,6 +111,21 @@ function OnamCelebration() {
               <span className="relative inline-block px-6 sm:px-8 py-2 sm:py-3 bg-gradient-to-r from-yellow-500 via-orange-500 to-red-500 text-white rounded-full font-bold text-base sm:text-lg tracking-wider shadow-lg transform group-hover:scale-105 transition-all duration-300 animate-pulse">
                 Coming Soon
               </span>
+            </div>
+          </div> */}
+
+          {/* Registration Info - New Addition */}
+          <div className="mb-6 sm:mb-8 relative" style={{
+            animation: 'slideUp 1s ease-out 1.35s both'
+          }}>
+            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-4 sm:p-5 border-2 border-green-200 shadow-md hover:shadow-lg transition-all duration-300">
+              {/* <div className="flex items-center justify-center mb-2">
+                <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse mr-2"></div>
+                <span className="text-green-700 font-bold text-lg sm:text-xl">Registration Opens</span>
+              </div> */}
+              <p className="text-green-600 font-semibold text-base sm:text-lg">
+              Registration Opens on August 27th at 9 AM
+              </p>
             </div>
           </div>
 
