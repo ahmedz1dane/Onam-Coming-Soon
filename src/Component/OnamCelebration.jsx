@@ -116,23 +116,27 @@ function OnamCelebration() {
           </div> */}
 
           {/* Registration Info - New Addition */}
-          <div className="mb-6 sm:mb-8 relative flex justify-center items-center" style={{
+          <div className="mb-6 sm:mb-8 relative flex flex-col items-center justify-center" style={{
             animation: 'slideUp 1s ease-out 1.35s both'
           }}>
-            {/* <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-4 sm:p-5 border-2 border-green-200 shadow-md hover:shadow-lg transition-all duration-300"> */}
-              {/* <div className="flex items-center justify-center mb-2">
-                <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse mr-2"></div>
-                <span className="text-green-700 font-bold text-lg sm:text-xl">Registration Opens</span>
-              </div> */}
-               <a 
-                href="https://forms.gle/6XkNkwMzut4Hej1a7"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold text-base sm:text-lg rounded-full hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
-              >
-                Click to Register
-              </a>
-            {/* </div> */}
+            <a 
+              href="https://forms.gle/6XkNkwMzut4Hej1a7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold text-base sm:text-lg rounded-full hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center mb-3"
+            >
+              Click to Register
+            </a>
+            <div className="flex flex-col items-center justify-center space-y-2 text-sm text-amber-600 font-medium">
+              <div className="flex items-center justify-center">
+                <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse mr-2"></div>
+                <span>Registration closes at 2:00 PM</span>
+              </div>
+              <div className="flex items-center justify-center">
+                <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse mr-2"></div>
+                <span>Join us at 2:30 PM at Gamezone</span>
+              </div>
+            </div>
           </div>
 
           {/* Enhanced description with better text alignment */}
