@@ -82,20 +82,21 @@ function OnamCelebration() {
           </div>
 
           {/* Main heading with perfect alignment and text animations */}
-          <div className="text-center" style={{
+          <div className="text-center flex flex-col items-center justify-center" style={{
             animation: 'slideUp 1s ease-out 0.6s both'
           }}>
-<h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-amber-600 mb-4 sm:mb-6 tracking-tight leading-[0.9] drop-shadow-sm relative" style={{
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-amber-600 mb-4 sm:mb-6 tracking-tight leading-[0.9] drop-shadow-sm relative text-center mx-auto" style={{
               background: 'linear-gradient(to right, #d97706, #ca8a04, #ea580c)',
               WebkitBackgroundClip: 'text',
               // WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
-            }}>              <span className="inline-block animate-bounce" style={{animationDelay: '0s', animationDuration: '2s'}}>O</span>
+            }}>              
+              <span className="inline-block animate-bounce" style={{animationDelay: '0s', animationDuration: '2s'}}>O</span>
               <span className="inline-block animate-bounce" style={{animationDelay: '0.1s', animationDuration: '2s'}}>n</span>
               <span className="inline-block animate-bounce" style={{animationDelay: '0.2s', animationDuration: '2s'}}>a</span>
               <span className="inline-block animate-bounce" style={{animationDelay: '0.3s', animationDuration: '2s'}}>m</span>
             </h1>
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-amber-700 mb-6 sm:mb-8 tracking-wide leading-tight" style={{
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-amber-700 mb-6 sm:mb-8 tracking-wide leading-tight text-center mx-auto" style={{
               animation: 'slideUp 1s ease-out 0.9s both'
             }}>
               Treasure Hunt
@@ -115,7 +116,7 @@ function OnamCelebration() {
           </div> */}
 
           {/* Registration Info - New Addition */}
-          <div className="mb-6 sm:mb-8 relative" style={{
+          <div className="mb-6 sm:mb-8 relative flex justify-center items-center" style={{
             animation: 'slideUp 1s ease-out 1.35s both'
           }}>
             {/* <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-4 sm:p-5 border-2 border-green-200 shadow-md hover:shadow-lg transition-all duration-300"> */}
@@ -127,7 +128,7 @@ function OnamCelebration() {
                 href="https://forms.gle/6XkNkwMzut4Hej1a7"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold text-base sm:text-lg rounded-full hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="inline-block px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold text-base sm:text-lg rounded-full hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-center"
               >
                 Click to Register
               </a>
@@ -135,18 +136,17 @@ function OnamCelebration() {
           </div>
 
           {/* Enhanced description with better text alignment */}
-          <div className="max-w-xl mx-auto mb-6 sm:mb-8 px-4" style={{
+          <div className="max-w-xl mx-auto mb-6 sm:mb-8 px-4 flex flex-col items-center justify-center text-center" style={{
             animation: 'slideUp 1s ease-out 1.5s both'
           }}>
-            <p className="text-amber-700 text-base sm:text-lg font-medium leading-relaxed text-center">
+            <p className="text-amber-700 text-base sm:text-lg font-medium leading-relaxed text-center mb-4">
               Experience the joy, tradition, and magnificent colors of Onam with us!
             </p>
-            <br />
             <a 
               href="https://docs.google.com/document/d/1eYF8qODX9IbxnjxUvGB-RYATpD_IXvInzYnOGKzjhbA/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-6 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold rounded-full hover:from-amber-600 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+              className="inline-block px-6 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold rounded-full hover:from-amber-600 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg text-center"
             >
               Click to Know More
             </a>
@@ -174,11 +174,20 @@ function OnamCelebration() {
           <div className="bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl p-4 sm:p-6 border border-amber-200 text-center hover:bg-gradient-to-r hover:from-amber-100 hover:to-yellow-100 transition-all duration-300" style={{
             animation: 'slideUp 1s ease-out 2.1s both'
           }}>
-            <p className="text-amber-700 font-semibold text-lg sm:text-xl leading-tight mb-1">
+            <p className="text-amber-700 font-semibold text-lg sm:text-xl leading-tight mb-1 text-center">
               Govt. Cyberpark, Kozhikode
             </p>
-            <p className="text-amber-600 text-sm sm:text-base font-medium">
+            <p className="text-amber-600 text-sm sm:text-base font-medium text-center">
               September 2025
+            </p>
+            <p className="text-amber-600 text-sm sm:text-base font-medium text-center">
+              Contact: 
+              <a 
+                href="tel:7907658624"
+                className=" text-base  hover:text-blue-800 transition-colors duration-300"
+              >
+                7907658624
+              </a>
             </p>
           </div>
         </div>
