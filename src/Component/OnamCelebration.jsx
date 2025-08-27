@@ -136,6 +136,15 @@ function OnamCelebration() {
             <p className="text-amber-700 text-base sm:text-lg font-medium leading-relaxed text-center">
               Experience the joy, tradition, and magnificent colors of Onam with us!
             </p>
+            <br />
+            <a 
+              href="https://docs.google.com/document/d/1eYF8qODX9IbxnjxUvGB-RYATpD_IXvInzYnOGKzjhbA/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-2 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-semibold rounded-full hover:from-amber-600 hover:to-orange-600 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+            >
+              Click to Know More
+            </a>
           </div>
 
           {/* Animated decorative separator */}
@@ -176,6 +185,7 @@ function OnamCelebration() {
       <div className="absolute bottom-1/4 left-8 sm:left-16 text-3xl sm:text-4xl opacity-20 animate-bounce" style={{animationDelay: '0.5s', animationDuration: '3.5s'}}>🌼</div>
       <div className="absolute bottom-1/3 right-4 sm:right-8 text-4xl sm:text-5xl opacity-20 animate-bounce" style={{animationDelay: '1.5s', animationDuration: '2.8s'}}>🌻</div>
       
+
       {/* Additional floating elements */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl opacity-10 animate-spin" style={{animationDuration: '15s'}}>✨</div>
 
