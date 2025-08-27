@@ -124,7 +124,7 @@ function OnamCelebration() {
                 <span className="text-green-700 font-bold text-lg sm:text-xl">Registration Opens</span>
               </div> */}
               <p className="text-green-600 font-semibold text-base sm:text-lg">
-              Registration Opens on August 27th at 9 AM
+              Registration Opens on August 27th at 11 AM
               </p>
             </div>
           </div>
