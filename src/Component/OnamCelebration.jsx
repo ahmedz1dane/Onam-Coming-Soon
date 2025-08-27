@@ -118,15 +118,20 @@ function OnamCelebration() {
           <div className="mb-6 sm:mb-8 relative" style={{
             animation: 'slideUp 1s ease-out 1.35s both'
           }}>
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-4 sm:p-5 border-2 border-green-200 shadow-md hover:shadow-lg transition-all duration-300">
+            {/* <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-4 sm:p-5 border-2 border-green-200 shadow-md hover:shadow-lg transition-all duration-300"> */}
               {/* <div className="flex items-center justify-center mb-2">
                 <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse mr-2"></div>
                 <span className="text-green-700 font-bold text-lg sm:text-xl">Registration Opens</span>
               </div> */}
-              <p className="text-green-600 font-semibold text-base sm:text-lg">
-              Registration Opens on August 27th at 11 AM
-              </p>
-            </div>
+               <a 
+                href="https://forms.gle/6XkNkwMzut4Hej1a7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold text-base sm:text-lg rounded-full hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              >
+                Click to Register
+              </a>
+            {/* </div> */}
           </div>
 
           {/* Enhanced description with better text alignment */}
